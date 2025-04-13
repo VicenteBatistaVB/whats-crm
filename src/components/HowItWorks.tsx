@@ -1,0 +1,94 @@
+
+import { Check } from "lucide-react";
+
+const HowItWorks = () => {
+  const steps = [
+    {
+      number: "01",
+      title: "Conecte sua conta do WhatsApp Business",
+      description: "Integração rápida e segura com sua conta do WhatsApp Business API ou WhatsApp Business.",
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+    },
+    {
+      number: "02",
+      title: "Configure seu fluxo de atendimento",
+      description: "Personalize mensagens automáticas, chatbots e fluxos de trabalho conforme a necessidade do seu negócio.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+    },
+    {
+      number: "03",
+      title: "Comece a gerenciar seus contatos",
+      description: "Organize clientes, registre interações e acompanhe todo o histórico de comunicação em um só lugar.",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+    }
+  ];
+
+  return (
+    <section className="py-16 md:py-24" id="como-funciona">
+      <div className="container">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Como funciona nossa solução
+          </h2>
+          <p className="text-gray-600 text-lg">
+            Implementação simples e rápida. Em poucos passos, seu negócio estará pronto para atender com mais eficiência.
+          </p>
+        </div>
+
+        <div className="space-y-24">
+          {steps.map((step, index) => (
+            <div 
+              key={index} 
+              className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${
+                index % 2 === 1 ? "md:flex-row-reverse" : ""
+              }`}
+            >
+              <div className={`order-2 ${index % 2 === 1 ? "md:order-1" : "md:order-2"}`}>
+                <div className="relative">
+                  <img 
+                    src={step.image} 
+                    alt={step.title} 
+                    className="rounded-xl shadow-lg object-cover w-full h-64 md:h-80"
+                  />
+                  <div className="absolute -bottom-6 -right-6 bg-whatsapp-light text-white text-4xl font-bold w-20 h-20 flex items-center justify-center rounded-2xl shadow-lg">
+                    {step.number}
+                  </div>
+                </div>
+              </div>
+              
+              <div className={`order-1 ${index % 2 === 1 ? "md:order-2" : "md:order-1"}`}>
+                <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
+                <p className="text-gray-600 mb-6 text-lg">{step.description}</p>
+                
+                <div className="space-y-3">
+                  {[1, 2, 3].map((item) => (
+                    <div key={item} className="flex items-start gap-3">
+                      <div className="bg-green-100 rounded-full p-1 mt-1">
+                        <Check className="h-4 w-4 text-primary" />
+                      </div>
+                      <p className="text-gray-700">
+                        {index === 0 && item === 1 && "Segurança garantida nos dados"}
+                        {index === 0 && item === 2 && "Conexão estável e confiável"}
+                        {index === 0 && item === 3 && "Suporte técnico durante integração"}
+                        
+                        {index === 1 && item === 1 && "Mensagens de boas-vindas personalizadas"}
+                        {index === 1 && item === 2 && "Respostas automáticas para FAQ"}
+                        {index === 1 && item === 3 && "Modelos de mensagens prontos para usar"}
+                        
+                        {index === 2 && item === 1 && "Etiquetas para organizar contatos"}
+                        {index === 2 && item === 2 && "Notas e lembretes por cliente"}
+                        {index === 2 && item === 3 && "Histórico completo de interações"}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HowItWorks;
