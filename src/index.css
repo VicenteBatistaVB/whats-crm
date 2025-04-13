@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -60,7 +61,7 @@
   }
 
   .testimonial-card::before {
-    content: "";
+    content: "\201C";
     position: absolute;
     top: 0;
     left: 0;
