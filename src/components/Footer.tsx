@@ -1,4 +1,3 @@
-
 import { MessageCircle, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -75,7 +74,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200 pt-8 text-center md:flex md:justify-between md:text-left">
           <p className="text-gray-600 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} WhatsApp CRM. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} ZapSafe CRM. Todos os direitos reservados.
           </p>
           <div className="text-gray-600 space-y-2">
             <p>WhatsApp é uma marca registrada de Meta Platforms, Inc.</p>
