@@ -56,7 +56,7 @@ const Hero = () => {
           
           <div className="relative">
             <img 
-              src="/lovable-uploads/c52ac80b-d9f5-47a0-b40f-39ead7f69f2a.png" 
+              src="/lovable-uploads/412ca65e-24d0-4049-8ebf-2d94a431cba4.png" 
               alt="Interface CRM WhatsApp" 
               className="w-full h-auto max-w-[500px] mx-auto object-contain z-10 relative animate-float"
             />
