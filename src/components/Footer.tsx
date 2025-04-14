@@ -1,4 +1,3 @@
-
 import { MessageCircle, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -59,7 +58,16 @@ const Footer = () => {
                   Política de Privacidade
                 </a>
               </li>
-              <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Termos de Serviço</a></li>
+              <li>
+                <a 
+                  href="https://www.safecompliance.com.br/termos-de-uso" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-gray-600 hover:text-whatsapp-light"
+                >
+                  Termos de Serviço
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -78,4 +86,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
