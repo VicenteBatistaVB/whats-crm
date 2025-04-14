@@ -1,3 +1,4 @@
+
 import { Check } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -15,7 +16,7 @@ const HowItWorks = () => {
       number: "02",
       title: "Configure seu fluxo de atendimento",
       description: "Personalize mensagens automáticas, chatbots e fluxos de trabalho conforme a necessidade do seu negócio.",
-      image: "/lovable-uploads/c9c54e6b-df7b-4f8a-8ea6-ec5010c0ce98.png"
+      image: "/lovable-uploads/4ad6f7ac-c8b5-4a59-b15e-cecffedbba0b.png"
     },
     {
       number: "03",
@@ -97,3 +98,4 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
+
