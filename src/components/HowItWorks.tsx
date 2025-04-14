@@ -1,4 +1,3 @@
-
 import { Check } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -10,7 +9,7 @@ const HowItWorks = () => {
       number: "01",
       title: "Conecte sua conta do WhatsApp Business",
       description: "Integração rápida e segura com sua conta do WhatsApp Business API ou WhatsApp Business.",
-      image: "/lovable-uploads/e0011809-2ec1-433c-b920-f0c7449abb53.png"
+      image: "/lovable-uploads/b6f02a7a-41e2-4962-b0c1-4dd7d70a121d.png"
     },
     {
       number: "02",
