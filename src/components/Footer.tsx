@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 pt-16 pb-8">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <MessageCircle className="h-6 w-6 text-whatsapp-light" />
@@ -39,17 +39,6 @@ const Footer = () => {
               <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">API</a></li>
               <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Integrações</a></li>
               <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Novidades</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Empresa</h3>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Sobre nós</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Clientes</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Carreiras</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Blog</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-whatsapp-light">Contato</a></li>
             </ul>
           </div>
           
