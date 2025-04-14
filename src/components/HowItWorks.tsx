@@ -22,7 +22,7 @@ const HowItWorks = () => {
       number: "03",
       title: "Comece a gerenciar seus contatos",
       description: "Organize clientes, registre interações e acompanhe todo o histórico de comunicação em um só lugar.",
-      image: "/lovable-uploads/7351bb36-11c1-4b52-ac2f-aac29698b238.png"
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
     }
   ];
 
@@ -44,7 +44,7 @@ const HowItWorks = () => {
               key={index} 
               className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
             >
-              <div className={`${index % 2 === 0 ? 'order-1' : 'order-2'} md:order-1`}>
+              <div className="order-2 md:order-1">
                 <div className="relative">
                   <div className="overflow-hidden rounded-xl">
                     <img 
@@ -60,7 +60,7 @@ const HowItWorks = () => {
                 </div>
               </div>
               
-              <div className={`${index % 2 === 0 ? 'order-2' : 'order-1'} md:order-2`}>
+              <div className="order-1 md:order-2">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
                 <p className="text-gray-600 mb-6 text-lg">{step.description}</p>
                 
