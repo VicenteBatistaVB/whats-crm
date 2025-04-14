@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Users, BarChart3 } from "lucide-react";
 
@@ -54,8 +53,13 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            {/* Image section intentionally left empty */}
-            {/* Background decoration elements */}
+            <div className="bg-white rounded-xl shadow-xl p-4 md:p-8 relative z-10 animate-float">
+              <img 
+                src="/lovable-uploads/93302efe-6219-4591-9ad2-8bd84b5c49e0.png" 
+                alt="Zap Safe Logo" 
+                className="rounded-lg shadow-sm object-contain w-full h-auto max-h-[500px]"
+              />
+            </div>
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
             <div className="absolute -left-4 -top-4 w-32 h-32 bg-whatsapp-dark/10 rounded-full -z-10"></div>
           </div>
@@ -66,4 +70,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
