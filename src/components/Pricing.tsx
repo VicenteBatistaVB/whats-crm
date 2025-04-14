@@ -76,11 +76,12 @@ const Pricing = () => {
         "3 números de WhatsApp",
         "Até 10 atendentes",
         "2000 contatos",
-        "Chatbot avançado",
-        "Automações de marketing",
-        "Integrações com CRMs populares",
-        "Relatórios avançados",
-        "Suporte prioritário"
+        "Menu inicial",
+        "Relatórios",
+        "Suporte por WhatsApp",
+        "Funis de vendas",
+        "Agenda de compromissos",
+        "Mensagens diretas nos leads"
       ],
       isPopular: true
     },
