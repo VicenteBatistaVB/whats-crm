@@ -1,4 +1,3 @@
-
 import { MessageCircle, Users, Calendar, Clock, ChartBar, Bot, Send, ShieldCheck } from "lucide-react";
 
 type FeatureCardProps = {
@@ -48,8 +47,8 @@ const Features = () => {
     },
     {
       icon: <Bot className="h-6 w-6 text-primary" />,
-      title: "Chatbot Personalizado",
-      description: "Configure bots inteligentes para atendimento inicial e qualificação de leads."
+      title: "Funis Personalizados",
+      description: "Configure funis de venda personalizados e mantenha o processo de venda sob controle"
     },
     {
       icon: <Send className="h-6 w-6 text-primary" />,
