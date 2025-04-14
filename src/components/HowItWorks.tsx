@@ -23,6 +23,12 @@ const HowItWorks = () => {
       title: "Comece a gerenciar seus contatos",
       description: "Organize clientes, registre interações e acompanhe todo o histórico de comunicação em um só lugar.",
       image: "/lovable-uploads/10f426d9-171b-44ed-871d-64b202e33a6a.png"
+    },
+    {
+      number: "04",
+      title: "Agenda de compromissos integrada aos funis",
+      description: "Gerencie sua agenda, organize compromissos e sincronize automaticamente com os funis de vendas e atendimento.",
+      image: "/lovable-uploads/32e41740-1793-44dd-882d-baf844ddbbdf.png"
     }
   ];
 
@@ -82,6 +88,10 @@ const HowItWorks = () => {
                         {index === 2 && item === 1 && "Etiquetas para organizar contatos"}
                         {index === 2 && item === 2 && "Notas e lembretes por cliente"}
                         {index === 2 && item === 3 && "Histórico completo de interações"}
+                        
+                        {index === 3 && item === 1 && "Sincronização automática com funis"}
+                        {index === 3 && item === 2 && "Lembretes de compromissos"}
+                        {index === 3 && item === 3 && "Visualização compartilhada da agenda"}
                       </p>
                     </div>
                   ))}
