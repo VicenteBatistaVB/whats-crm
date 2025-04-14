@@ -19,7 +19,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg text-gray-600 md:pr-12">
-              Transforme conversas em vendas. Nossa plataforma integra WhatsApp Business com CRM potente para capturar, gerenciar e converter leads.
+              Transforme conversas em vendas com nossa plataforma de CRM integrada com WhatsApp. Converta leads em clientes.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
