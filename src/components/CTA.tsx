@@ -21,7 +21,7 @@ const CTA = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="text-black border-white hover:bg-white/10">
                 Fale com um consultor
               </Button>
             </a>
@@ -37,3 +37,4 @@ const CTA = () => {
 };
 
 export default CTA;
+
