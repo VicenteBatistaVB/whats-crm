@@ -57,7 +57,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/93302efe-6219-4591-9ad2-8bd84b5c49e0.png" 
                 alt="Zap Safe Logo" 
-                className="rounded-lg shadow-sm object-contain w-full h-auto max-h-[500px]"
+                className="rounded-lg shadow-sm object-contain w-full h-auto max-h-[500px] bg-transparent"
               />
             </div>
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
