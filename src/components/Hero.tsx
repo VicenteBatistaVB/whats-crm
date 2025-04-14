@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Users, BarChart3 } from "lucide-react";
 
@@ -23,12 +22,8 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
-              <Button size="lg" className="text-base">
-                Comece Grátis
-              </Button>
               <Button 
                 size="lg" 
-                variant="outline" 
                 className="text-base"
                 onClick={() => window.open('https://wa.me/558001119150', '_blank')}
               >
