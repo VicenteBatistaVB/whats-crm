@@ -52,8 +52,8 @@ const Features = () => {
     },
     {
       icon: <Send className="h-6 w-6 text-primary" />,
-      title: "Campanhas e Broadcast",
-      description: "Envie mensagens em massa para grupos segmentados de clientes."
+      title: "Leads Ativos",
+      description: "Envie mensagens para o leads diretamente de dentro dos funis, sem precisar ir para a caixa do WhatsApp"
     },
     {
       icon: <ShieldCheck className="h-6 w-6 text-primary" />,
