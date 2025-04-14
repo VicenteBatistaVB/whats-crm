@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Users, BarChart3 } from "lucide-react";
 
@@ -15,7 +14,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Atendimento e CRM direto pelo <span className="text-whatsapp-light">WhatsApp</span>
+              Whatsapp com CRM para atendimento.
             </h1>
             
             <p className="text-lg text-gray-600 md:pr-12">
@@ -70,4 +69,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
