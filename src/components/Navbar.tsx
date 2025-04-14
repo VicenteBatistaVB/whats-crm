@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -12,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <MessageCircle className="h-7 w-7 text-whatsapp-light" />
           <span className="font-bold text-xl text-secondary">
-            WhatsApp<span className="text-whatsapp-light">CRM</span>
+            Zap<span className="text-whatsapp-light">Safe</span>
           </span>
         </div>
         

@@ -1,4 +1,3 @@
-
 import { MessageCircle, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <MessageCircle className="h-6 w-6 text-whatsapp-light" />
               <span className="font-bold text-xl text-secondary">
-                WhatsApp<span className="text-whatsapp-light">CRM</span>
+                Zap<span className="text-whatsapp-light">Safe</span>
               </span>
             </div>
             <p className="text-gray-600 mb-4">
