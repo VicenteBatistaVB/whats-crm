@@ -54,13 +54,11 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-white rounded-xl shadow-xl p-4 md:p-8 relative z-10 animate-float">
-              <img 
-                src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" 
-                alt="Zap Safe Logo" 
-                className="rounded-lg shadow-sm object-contain w-full h-auto max-h-[500px] bg-transparent"
-              />
-            </div>
+            <img 
+              src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" 
+              alt="Zap Safe Logo" 
+              className="w-full h-auto max-w-[500px] mx-auto object-contain z-10 relative animate-float"
+            />
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
             <div className="absolute -left-4 -top-4 w-32 h-32 bg-whatsapp-dark/10 rounded-full -z-10"></div>
           </div>
