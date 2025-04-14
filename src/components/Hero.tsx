@@ -15,11 +15,11 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Atendimento e CRM direto pelo <span className="text-whatsapp-light">WhatsApp</span>
+              Transforme conversas em <span className="text-whatsapp-light">vendas</span>
             </h1>
             
             <p className="text-lg text-gray-600 md:pr-12">
-              Transforme conversas em vendas. Nossa plataforma integra WhatsApp Business com CRM potente para capturar, gerenciar e converter leads.
+              Nossa plataforma integra WhatsApp Business com CRM potente para capturar, gerenciar e converter leads.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
@@ -55,8 +55,8 @@ const Hero = () => {
           
           <div className="relative">
             <img 
-              src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" 
-              alt="Zap Safe Logo" 
+              src="/lovable-uploads/6387a913-d67f-439b-a80c-49ad98a289cb.png" 
+              alt="Zap Safe CRM Dashboard" 
               className="w-full h-auto max-w-[500px] mx-auto object-contain z-10 relative animate-float"
             />
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
@@ -69,3 +69,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
