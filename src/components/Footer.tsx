@@ -15,7 +15,7 @@ const Footer = () => {
             <p className="text-gray-600 mb-4">
               Transforme seu atendimento e controle de clientes com a melhor solução de CRM integrada ao WhatsApp.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 mb-4">
               <a href="#" className="text-gray-500 hover:text-whatsapp-light">
                 <Facebook size={20} />
               </a>
@@ -29,6 +29,9 @@ const Footer = () => {
                 <Twitter size={20} />
               </a>
             </div>
+            <p className="text-gray-600">
+              DPO: Ricardo José Ferrigno - E-mail: ricardo.ferrigno@safecompliance.com.br
+            </p>
           </div>
           
           <div>
@@ -78,7 +81,6 @@ const Footer = () => {
           </p>
           <div className="text-gray-600 space-y-2">
             <p>WhatsApp é uma marca registrada de Meta Platforms, Inc.</p>
-            <p>DPO: Ricardo José Ferrigno - E-mail: ricardo.ferrigno@safecompliance.com.br</p>
           </div>
         </div>
       </div>
