@@ -8,6 +8,7 @@ import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import CookieConsent from "@/components/CookieConsent";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
       <CTA />
       <Footer />
       <WhatsAppButton />
+      <CookieConsent />
     </div>
   );
 };
