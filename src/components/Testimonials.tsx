@@ -92,21 +92,6 @@ const Testimonials = () => {
             />
           ))}
         </div>
-        
-        <div className="mt-16 text-center">
-          <p className="text-lg font-medium">
-            Junte-se a mais de 2000+ empresas que já transformaram seu atendimento
-          </p>
-          <div className="flex flex-wrap justify-center gap-8 mt-8">
-            {["Company A", "Company B", "Company C", "Company D", "Company E"].map((company, index) => (
-              <div key={index} className="grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
-                <div className="bg-gray-200 h-8 w-32 rounded flex items-center justify-center">
-                  <span className="text-gray-500 font-semibold">{company}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
