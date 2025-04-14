@@ -14,9 +14,6 @@ const CTA = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-whatsapp-light hover:bg-whatsapp-light/90 text-white">
-              Comece Grátis por 14 Dias
-            </Button>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
               Agendar Demonstração
             </Button>
@@ -32,3 +29,4 @@ const CTA = () => {
 };
 
 export default CTA;
+
