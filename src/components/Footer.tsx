@@ -1,3 +1,4 @@
+
 import { MessageCircle, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -76,9 +77,10 @@ const Footer = () => {
           <p className="text-gray-600 mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} WhatsApp CRM. Todos os direitos reservados.
           </p>
-          <p className="text-gray-600">
-            WhatsApp é uma marca registrada de Meta Platforms, Inc.
-          </p>
+          <div className="text-gray-600 space-y-2">
+            <p>WhatsApp é uma marca registrada de Meta Platforms, Inc.</p>
+            <p>DPO: Ricardo José Ferrigno - E-mail: ricardo.ferrigno@safecompliance.com.br</p>
+          </div>
         </div>
       </div>
     </footer>
