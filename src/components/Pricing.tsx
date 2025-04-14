@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
@@ -91,15 +90,14 @@ const Pricing = () => {
       description: "Solução completa para grandes operações de atendimento.",
       features: [
         "10 números de WhatsApp",
-        "Atendentes ilimitados",
-        "Contatos ilimitados",
-        "Chatbot com IA",
-        "Automações personalizadas",
-        "API completa",
-        "Integrações avançadas",
-        "Relatórios personalizados",
-        "Suporte VIP 24/7",
-        "Implementação assistida"
+        "Até 20 atendentes",
+        "5000 contatos",
+        "Menu inicial",
+        "Relatórios",
+        "Suporte por WhatsApp e telefone",
+        "Funis de vendas",
+        "Agenda de compromissos",
+        "Mensagens diretas nos leads"
       ]
     }
   ];
