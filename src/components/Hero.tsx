@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Users, BarChart3 } from "lucide-react";
 
@@ -56,8 +55,8 @@ const Hero = () => {
           
           <div className="relative">
             <img 
-              src="/lovable-uploads/dc69683c-5c61-4780-9f75-89a5ceed4d80.png" 
-              alt="ZapSafe CRM Interface" 
+              src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" 
+              alt="Zap Safe Logo" 
               className="w-full h-auto max-w-[500px] mx-auto object-contain z-10 relative animate-float"
             />
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
