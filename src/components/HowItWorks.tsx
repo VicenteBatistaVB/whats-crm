@@ -16,7 +16,7 @@ const HowItWorks = () => {
       number: "02",
       title: "Configure seu fluxo de atendimento",
       description: "Personalize mensagens automáticas, chatbots e fluxos de trabalho conforme a necessidade do seu negócio.",
-      image: "/lovable-uploads/7926dac6-9115-4f42-84c3-d7b8f210709c.png"
+      image: "/lovable-uploads/c9c54e6b-df7b-4f8a-8ea6-ec5010c0ce98.png"
     },
     {
       number: "03",
