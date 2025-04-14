@@ -49,13 +49,14 @@ const HowItWorks = () => {
             >
               <div className={`order-2 ${index % 2 === 1 ? "md:order-1" : "md:order-2"}`}>
                 <div className="relative">
-                  <AspectRatio ratio={isMobile ? 16 / 12 : 16 / 10} className="overflow-hidden rounded-xl">
+                  <div className="overflow-hidden rounded-xl">
                     <img 
                       src={step.image} 
                       alt={step.title} 
-                      className="w-full h-full object-cover rounded-xl shadow-lg"
+                      className="w-full h-auto object-contain rounded-xl shadow-lg"
+                      style={{ maxHeight: isMobile ? "300px" : "400px" }}
                     />
-                  </AspectRatio>
+                  </div>
                   <div className="absolute -bottom-6 -right-6 bg-whatsapp-light text-white text-4xl font-bold w-20 h-20 flex items-center justify-center rounded-2xl shadow-lg">
                     {step.number}
                   </div>
