@@ -132,7 +132,12 @@ const Pricing = () => {
           <p className="text-gray-600 mb-4">
             Empresas com necessidades específicas podem entrar em contato para um plano sob medida.
           </p>
-          <Button variant="outline">Fale com um Consultor</Button>
+          <Button 
+            variant="outline" 
+            onClick={() => window.open('https://wa.me/+558001119150', '_blank')}
+          >
+            Fale com um Consultor
+          </Button>
         </div>
       </div>
     </section>
