@@ -62,7 +62,10 @@ const Pricing = () => {
         "500 contatos",
         "Menu inicial",
         "Relatórios",
-        "Suporte por WhatsApp"
+        "Suporte por WhatsApp",
+        "Funis de vendas",
+        "Agenda de compromissos",
+        "Mensagens diretas nos leads"
       ]
     },
     {
