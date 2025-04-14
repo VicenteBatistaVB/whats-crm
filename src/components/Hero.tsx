@@ -54,13 +54,7 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-white rounded-xl shadow-xl p-4 md:p-8 relative z-10 animate-float">
-              <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=500&q=80" 
-                alt="Dashboard do WhatsApp CRM" 
-                className="rounded-lg shadow-sm object-cover"
-              />
-            </div>
+            {/* Image section intentionally left empty */}
             {/* Background decoration elements */}
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
             <div className="absolute -left-4 -top-4 w-32 h-32 bg-whatsapp-dark/10 rounded-full -z-10"></div>
@@ -72,3 +66,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
