@@ -28,7 +28,7 @@ const HowItWorks = () => {
       number: "04",
       title: "Agenda de compromissos integrada aos funis",
       description: "Gerencie sua agenda, organize compromissos e sincronize automaticamente com os funis de vendas e atendimento.",
-      image: "/lovable-uploads/32e41740-1793-44dd-882d-baf844ddbbdf.png"
+      image: "/lovable-uploads/467c7afd-75f3-4347-a46e-43e764e39628.png"
     }
   ];
 
