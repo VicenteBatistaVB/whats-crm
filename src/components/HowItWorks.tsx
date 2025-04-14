@@ -16,7 +16,7 @@ const HowItWorks = () => {
       number: "02",
       title: "Configure seu fluxo de atendimento",
       description: "Personalize mensagens automáticas, chatbots e fluxos de trabalho conforme a necessidade do seu negócio.",
-      image: "/lovable-uploads/4ad6f7ac-c8b5-4a59-b15e-cecffedbba0b.png"
+      image: "/lovable-uploads/c9c54e6b-df7b-4f8a-8ea6-ec5010c0ce98.png"
     },
     {
       number: "03",
@@ -42,11 +42,9 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div 
               key={index} 
-              className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${
-                index % 2 === 1 ? "md:flex-row-reverse" : ""
-              }`}
+              className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
             >
-              <div className={`order-2 ${index % 2 === 1 ? "md:order-1" : "md:order-2"}`}>
+              <div className="order-2 md:order-1">
                 <div className="relative">
                   <div className="overflow-hidden rounded-xl">
                     <img 
@@ -62,7 +60,7 @@ const HowItWorks = () => {
                 </div>
               </div>
               
-              <div className={`order-1 ${index % 2 === 1 ? "md:order-2" : "md:order-1"}`}>
+              <div className="order-1 md:order-2">
                 <h3 className="text-2xl md:text-3xl font-bold mb-4">{step.title}</h3>
                 <p className="text-gray-600 mb-6 text-lg">{step.description}</p>
                 
@@ -98,4 +96,3 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
-
