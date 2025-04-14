@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Users, BarChart3 } from "lucide-react";
 
@@ -55,7 +56,7 @@ const Hero = () => {
           <div className="relative">
             <div className="bg-white rounded-xl shadow-xl p-4 md:p-8 relative z-10 animate-float">
               <img 
-                src="/lovable-uploads/93302efe-6219-4591-9ad2-8bd84b5c49e0.png" 
+                src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" 
                 alt="Zap Safe Logo" 
                 className="rounded-lg shadow-sm object-contain w-full h-auto max-h-[500px] bg-transparent"
               />
