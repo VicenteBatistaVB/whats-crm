@@ -58,11 +58,11 @@ const Pricing = () => {
       description: "Ideal para pequenos negócios começando com WhatsApp.",
       features: [
         "1 número de WhatsApp",
-        "Até 3 atendentes",
+        "Até 3 atendentes", 
         "500 contatos",
-        "Chatbot básico",
-        "Relatórios simples",
-        "Suporte por email"
+        "Menu inicial",
+        "Relatórios",
+        "Suporte por WhatsApp"
       ]
     },
     {
