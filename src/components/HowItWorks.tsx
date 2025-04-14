@@ -1,6 +1,5 @@
 
 import { Check } from "lucide-react";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const HowItWorks = () => {
@@ -17,7 +16,7 @@ const HowItWorks = () => {
       number: "02",
       title: "Configure seu fluxo de atendimento",
       description: "Personalize mensagens automáticas, chatbots e fluxos de trabalho conforme a necessidade do seu negócio.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+      image: "/lovable-uploads/4ad6f7ac-c8b5-4a59-b15e-cecffedbba0b.png"
     },
     {
       number: "03",
@@ -99,3 +98,4 @@ const HowItWorks = () => {
 };
 
 export default HowItWorks;
+
