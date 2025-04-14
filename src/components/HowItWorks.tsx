@@ -6,7 +6,7 @@ const HowItWorks = () => {
       number: "01",
       title: "Conecte sua conta do WhatsApp Business",
       description: "Integração rápida e segura com sua conta do WhatsApp Business API ou WhatsApp Business.",
-      image: "/lovable-uploads/add5f4b1-28f9-4f96-bb10-b92398092949.png"
+      image: "/lovable-uploads/e0011809-2ec1-433c-b920-f0c7449abb53.png"
     },
     {
       number: "02",
