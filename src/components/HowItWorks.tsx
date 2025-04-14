@@ -22,7 +22,7 @@ const HowItWorks = () => {
       number: "03",
       title: "Comece a gerenciar seus contatos",
       description: "Organize clientes, registre interações e acompanhe todo o histórico de comunicação em um só lugar.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+      image: "/lovable-uploads/10f426d9-171b-44ed-871d-64b202e33a6a.png"
     }
   ];
 
