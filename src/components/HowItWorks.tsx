@@ -1,6 +1,11 @@
+
 import { Check } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const HowItWorks = () => {
+  const isMobile = useIsMobile();
+  
   const steps = [
     {
       number: "01",
@@ -44,11 +49,13 @@ const HowItWorks = () => {
             >
               <div className={`order-2 ${index % 2 === 1 ? "md:order-1" : "md:order-2"}`}>
                 <div className="relative">
-                  <img 
-                    src={step.image} 
-                    alt={step.title} 
-                    className="rounded-xl shadow-lg object-cover w-full h-64 md:h-80"
-                  />
+                  <AspectRatio ratio={isMobile ? 16 / 12 : 16 / 10} className="overflow-hidden rounded-xl">
+                    <img 
+                      src={step.image} 
+                      alt={step.title} 
+                      className="w-full h-full object-cover rounded-xl shadow-lg"
+                    />
+                  </AspectRatio>
                   <div className="absolute -bottom-6 -right-6 bg-whatsapp-light text-white text-4xl font-bold w-20 h-20 flex items-center justify-center rounded-2xl shadow-lg">
                     {step.number}
                   </div>
