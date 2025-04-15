@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
@@ -57,7 +58,7 @@ const Pricing = () => {
       description: "Ideal para pequenos negócios começando com WhatsApp.",
       features: [
         "1 número de WhatsApp",
-        "Até 3 atendentes", 
+        "Até 4 atendentes", // Changed from "Até 3 atendentes"
         "500 contatos",
         "Menu inicial",
         "Relatórios",
@@ -145,3 +146,4 @@ const Pricing = () => {
 };
 
 export default Pricing;
+
