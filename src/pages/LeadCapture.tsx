@@ -27,14 +27,6 @@ const LeadCapture = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary/5 to-background">
       <div className="container py-12 md:py-24">
-        <div className="flex justify-center mb-8">
-          <img 
-            src="/lovable-uploads/591e6c5d-e6cb-46df-b143-20538b6e4ff6.png" 
-            alt="ZapSafe Logo" 
-            className="max-w-xs md:max-w-md lg:max-w-lg" 
-          />
-        </div>
-
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-secondary">
