@@ -4,9 +4,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
-import { Check, MessageCircle, Users, BarChartBig, HeartHandshake, Star, CircleDollarSign } from "lucide-react";
+import { Check, MessageCircle, Users, BarChartBig, HeartHandshake, Star, CircleDollarSign, ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "react-router-dom";
 
 const LeadCapture = () => {
   const [formData, setFormData] = useState({
@@ -217,9 +218,20 @@ const LeadCapture = () => {
                 />
               </div>
 
-              <Button type="submit" className="w-full">
-                Solicitar Demonstração
-              </Button>
+              <div className="flex items-center gap-4 mt-6">
+                <Button 
+                  variant="outline" 
+                  className="flex items-center gap-2 text-secondary hover:bg-secondary/10"
+                  asChild
+                >
+                  <Link to="/">
+                    Saiba mais <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button type="submit" className="flex items-center gap-2">
+                  Solicitar Demonstração
+                </Button>
+              </div>
 
               <p className="text-xs text-center text-muted-foreground mt-4">
                 Ao enviar, você concorda com nossa política de privacidade 
