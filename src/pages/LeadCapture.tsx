@@ -8,6 +8,8 @@ import { Check, MessageCircle, Users, BarChartBig, HeartHandshake, Star, CircleD
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { cn } from "@/lib/utils";
 
 const LeadCapture = () => {
   const [formData, setFormData] = useState({
@@ -29,6 +31,19 @@ const LeadCapture = () => {
       <div className="container py-12 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
+            <div className="flex justify-center mb-8">
+              <AspectRatio ratio={16 / 4} className="w-48 md:w-64">
+                <img 
+                  src="/public/lovable-uploads/add5f4b1-28f9-4f96-bb10-b92398092949.png" 
+                  alt="ZapSafe Logo"
+                  className={cn(
+                    "object-contain w-full h-full",
+                    "transition-transform duration-300 hover:scale-105"
+                  )}
+                />
+              </AspectRatio>
+            </div>
+
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-secondary">
               Transforme seu Atendimento no WhatsApp
             </h1>
