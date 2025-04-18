@@ -1,6 +1,8 @@
+
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,12 +10,12 @@ const Navbar = () => {
   return (
     <nav className="py-4 bg-white shadow-sm sticky top-0 z-50">
       <div className="container flex justify-between items-center">
-        <div className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <MessageCircle className="h-7 w-7 text-whatsapp-light" />
           <span className="font-bold text-xl text-secondary">
             Zap<span className="text-whatsapp-light">Safe</span>
           </span>
-        </div>
+        </Link>
         
         {/* Desktop menu */}
         <div className="hidden md:flex items-center gap-8">
@@ -21,7 +23,9 @@ const Navbar = () => {
           <a href="#como-funciona" className="text-gray-600 hover:text-gray-900">Como Funciona</a>
           <a href="#depoimentos" className="text-gray-600 hover:text-gray-900">Depoimentos</a>
           <a href="#precos" className="text-gray-600 hover:text-gray-900">Preços</a>
-          <Button>Comece Agora</Button>
+          <Link to="/cadastro">
+            <Button>Comece Agora</Button>
+          </Link>
         </div>
         
         {/* Mobile menu toggle button */}
@@ -64,7 +68,9 @@ const Navbar = () => {
             >
               Preços
             </a>
-            <Button className="w-full">Comece Agora</Button>
+            <Link to="/cadastro" onClick={() => setIsMenuOpen(false)}>
+              <Button className="w-full">Comece Agora</Button>
+            </Link>
           </div>
         </div>
       )}
