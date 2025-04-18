@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -55,8 +54,8 @@ const LeadCapture = () => {
                   </li>
                 </ul>
                 <Button 
-                  variant="outline" 
-                  className="w-full mt-4 text-primary border-primary/20 hover:bg-primary/10"
+                  variant="default" 
+                  className="w-full mt-4 bg-green-500 text-white hover:bg-green-600"
                   asChild
                 >
                   <Link to="/">
