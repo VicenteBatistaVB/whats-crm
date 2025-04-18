@@ -29,6 +29,14 @@ const LeadCapture = () => {
       <div className="container py-12 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
+            <div className="flex justify-center mb-8">
+              <img 
+                src="/lovable-uploads/addf01ef-69ce-48f4-94ba-653f30b2f31a.png" 
+                alt="ZapSafe Logo" 
+                className="max-h-24 object-contain"
+              />
+            </div>
+
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-secondary">
               Transforme seu Atendimento no WhatsApp
             </h1>
