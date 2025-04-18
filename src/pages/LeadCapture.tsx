@@ -73,6 +73,15 @@ const LeadCapture = () => {
                       <span>Sistema completo de CRM</span>
                     </li>
                   </ul>
+                  <Button 
+                    variant="outline" 
+                    className="w-full mt-4 text-primary border-primary/20 hover:bg-primary/10"
+                    asChild
+                  >
+                    <Link to="/">
+                      Saiba mais <ArrowRight className="h-4 w-4 ml-2" />
+                    </Link>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
