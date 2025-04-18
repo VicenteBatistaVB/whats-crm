@@ -1,12 +1,12 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
-import { Check, MessageCircle, Users, BarChartBig, HeartHandshake } from "lucide-react";
+import { Check, MessageCircle, Users, BarChartBig, HeartHandshake, Star, CircleDollarSign } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 const LeadCapture = () => {
   const [formData, setFormData] = useState({
@@ -35,6 +35,46 @@ const LeadCapture = () => {
               Descubra como nosso CRM especializado para WhatsApp Business pode 
               revolucionar seu relacionamento com clientes e impulsionar suas vendas.
             </p>
+
+            <Card className="border-primary/20 bg-white/50 backdrop-blur-sm mb-8">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-2 mb-4">
+                  <Star className="h-5 w-5 text-primary fill-primary" />
+                  <h3 className="font-semibold text-lg">Destaque Especial: Plano Iniciante</h3>
+                </div>
+                <div className="mb-4">
+                  <div className="flex items-center gap-2">
+                    <CircleDollarSign className="h-5 w-5 text-primary" />
+                    <span className="text-2xl font-bold">R$197/mês</span>
+                  </div>
+                  <p className="text-muted-foreground ml-7">Perfeito para começar sua jornada</p>
+                </div>
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
+                      Implantação Grátis
+                    </Badge>
+                    <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
+                      Consultoria Grátis
+                    </Badge>
+                  </div>
+                  <ul className="space-y-2">
+                    <li className="flex items-center gap-2">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>Até 4 atendentes inclusos</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>500 contatos</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <Check className="h-4 w-4 text-primary" />
+                      <span>Sistema completo de CRM</span>
+                    </li>
+                  </ul>
+                </div>
+              </CardContent>
+            </Card>
 
             <div className="space-y-6 mb-10">
               <div className="flex gap-3">
