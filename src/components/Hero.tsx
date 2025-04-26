@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Users, BarChart3 } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="py-16 md:py-24 hero-gradient">
+  return <section className="py-16 md:py-24 hero-gradient">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col gap-6">
@@ -22,13 +20,7 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
-              <Button 
-                size="lg" 
-                className="text-base"
-                onClick={() => window.open('https://wa.me/558001119150', '_blank')}
-              >
-                Agendar Demo
-              </Button>
+              <Button size="lg" className="text-base" onClick={() => window.open('https://wa.me/558001119150', '_blank')}>Teste 7 dias grátis</Button>
             </div>
             
             <div className="grid grid-cols-3 gap-4 mt-6 text-center">
@@ -54,18 +46,12 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <img 
-              src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" 
-              alt="Zap Safe Logo" 
-              className="w-full h-auto max-w-[500px] mx-auto object-contain z-10 relative animate-float"
-            />
+            <img src="/lovable-uploads/67a332c5-7493-467e-837d-97eb4e6b204b.png" alt="Zap Safe Logo" className="w-full h-auto max-w-[500px] mx-auto object-contain z-10 relative animate-float" />
             <div className="absolute -right-4 -bottom-4 w-64 h-64 bg-whatsapp-light/10 rounded-full -z-10"></div>
             <div className="absolute -left-4 -top-4 w-32 h-32 bg-whatsapp-dark/10 rounded-full -z-10"></div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
